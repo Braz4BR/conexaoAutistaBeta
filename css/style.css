@@ -354,4 +354,15 @@ textarea::placeholder{
 #btn2:hover{
     background-color: #0338a3;
 }
+.linkMap:visited {
+    color: inherit;   /* Mantém a cor do link como o texto normal */
+    text-decoration: none; /* Remove o sublinhado */
+}
 
+/* Remove o estilo de link clicado ou em foco */
+linkMap:active,
+LinkMap:focus {
+    outline: none; /* Remove a borda de foco (quando o link é clicado) */
+    text-decoration: none; /* Remove o sublinhado ao clicar */
+    color: inherit; /* Mantém a cor como o texto normal */
+}
